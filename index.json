@@ -6,7 +6,7 @@
     },
     {
       "path": "content/mods/amendments.json",
-      "sha1": "3ec0682b3382a56d085bd17812cc5c15a14a0e49"
+      "sha1": "67f334ae70a9790ad7beea5d2946db5b6a3a5d5e"
     },
     {
       "path": "content/mods/appleskin.json",
@@ -14,7 +14,7 @@
     },
     {
       "path": "content/mods/architectury-api.json",
-      "sha1": "6950a26e0292208a2d89d0d586463bb3c646ae86"
+      "sha1": "602bd33a49bb4b1ba875a438fcebb7a970e2d34e"
     },
     {
       "path": "content/mods/artifacts.json",
@@ -27,6 +27,10 @@
     {
       "path": "content/mods/backport-copper-age.json",
       "sha1": "20c6b3da5553a767fb08a51146e21efd1b75b3b4"
+    },
+    {
+      "path": "content/mods/bellsandwhistles.json",
+      "sha1": "5f5645cc5801a5eb56db1e5a8d46454df645fa5a"
     },
     {
       "path": "content/mods/c2me-neoforge.json",
@@ -49,16 +53,64 @@
       "sha1": "b40f672cf049366b36dd27dff262d17b12d5faba"
     },
     {
+      "path": "content/mods/copycats.json",
+      "sha1": "656473e09a358b5ab11a46b17d800112cee94183"
+    },
+    {
       "path": "content/mods/corgilib.json",
       "sha1": "1e9709fa1de8fa9615778889724723c1b4314095"
+    },
+    {
+      "path": "content/mods/create-aeronautics.json",
+      "sha1": "eeb5474062c92a65b609af430b3ec08d9ae44f34"
     },
     {
       "path": "content/mods/create-bits-n-bobs.json",
       "sha1": "657709b10275fa332c45cefcbb2605bea2244de7"
     },
     {
+      "path": "content/mods/create-coasters-simulated.json",
+      "sha1": "e545f76a7c0ee908dc06fae1334ff61256f1591f"
+    },
+    {
+      "path": "content/mods/create-copper-zinc.json",
+      "sha1": "a96191c1d04cf6afa96b9f963aba1c68a74332a6"
+    },
+    {
+      "path": "content/mods/create-deco.json",
+      "sha1": "4a67fcb34d95337dc9bf7634e5c92de94c5dc269"
+    },
+    {
+      "path": "content/mods/create-deep-seas.json",
+      "sha1": "3517fecb680732859b2bea6f1ccd30cddfb43af8"
+    },
+    {
+      "path": "content/mods/create-design-n-decor.json",
+      "sha1": "0815066a9c374ff3d7cbac26e84e735b7784342d"
+    },
+    {
+      "path": "content/mods/create-framed.json",
+      "sha1": "8e3aaf716e2fa21c718a9786088ba99e0bfbc4e2"
+    },
+    {
+      "path": "content/mods/create-propulsion-simulated.json",
+      "sha1": "96bdbdb77fdd11821d2e58159864130209b46a1f"
+    },
+    {
+      "path": "content/mods/create-sound-of-steam.json",
+      "sha1": "5aefb98ba0705b4d1a6862442de30ae3e0fbe10d"
+    },
+    {
+      "path": "content/mods/create-steam-n-rails-1-21-1.json",
+      "sha1": "e5103944c5df0c86ecb409a887a669d3b842faee"
+    },
+    {
+      "path": "content/mods/create-tweaked-controllers.json",
+      "sha1": "d5622e4102473682bcd0064b7eba91329a2ee410"
+    },
+    {
       "path": "content/mods/create.json",
-      "sha1": "ce7022d92f87d82d12ddb97dbac32d3a695d1007"
+      "sha1": "97b7065d1c83e3eb1917ab7442bd3922a08c3260"
     },
     {
       "path": "content/mods/curios.json",
@@ -82,7 +134,7 @@
     },
     {
       "path": "content/mods/farmers-delight.json",
-      "sha1": "4c599037e77bc51a5392104238bc655ad423c000"
+      "sha1": "5f49d846c3e8987f1abdcf552789dd9778c6d375"
     },
     {
       "path": "content/mods/ferrite-core.json",
@@ -97,8 +149,16 @@
       "sha1": "ba6638fced3fa0edc297bedb321824ee8bef3f23"
     },
     {
+      "path": "content/mods/interiors.json",
+      "sha1": "e19c760e4ab8c1bfe66b4266574dbfac4f5090b2"
+    },
+    {
       "path": "content/mods/jamlib.json",
       "sha1": "de2bda220bee5652918b7fa74b3a3166d01e71db"
+    },
+    {
+      "path": "content/mods/kotlin-for-forge.json",
+      "sha1": "2dac499312510629d328fc4aa530bcc6968789db"
     },
     {
       "path": "content/mods/krypton-foxified.json",
@@ -145,6 +205,10 @@
       "sha1": "8310a4676eb6169131347bfbaccc4e8d26256387"
     },
     {
+      "path": "content/mods/power-grid.json",
+      "sha1": "0adef63a93fe0eaa04f8721427c8b2c55730400a"
+    },
+    {
       "path": "content/mods/reliable-name-tags.json",
       "sha1": "55576c8a7cb9770f111b4da44d51f87c6e210955"
     },
@@ -157,12 +221,28 @@
       "sha1": "067aaf7e99271281e6c8c952d268c332e88ab296"
     },
     {
+      "path": "content/mods/sable-floaters.json",
+      "sha1": "3c7406ddc25330c44650902bdb34a1665a710e3a"
+    },
+    {
+      "path": "content/mods/sable.json",
+      "sha1": "a04d754e2908150fa0d216a749f990aa1631203f"
+    },
+    {
+      "path": "content/mods/slice-and-dice.json",
+      "sha1": "552ab5e0c725aaba692c928e3d7bb145b2a3e670"
+    },
+    {
+      "path": "content/mods/sophisticated-backpacks-create-integration.json",
+      "sha1": "edf2faa9fbd5b3d3371928a888d930116182f65c"
+    },
+    {
       "path": "content/mods/sophisticated-backpacks.json",
-      "sha1": "6f3f832c9474e09a0c20589aab34b19278959645"
+      "sha1": "e0344b5044bc4a8ca572546780b7605cd51456e1"
     },
     {
       "path": "content/mods/sophisticated-core.json",
-      "sha1": "518857fd475f5adcfda87d87e6114f0e773f4315"
+      "sha1": "8b4de015ab4cba94970b0ea1779289ec5b3cea11"
     },
     {
       "path": "content/mods/strut-your-stuff.json",

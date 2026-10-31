@@ -1,0 +1,23 @@
+{
+  "name": "Sophisticated Backpacks Create Integration",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "s85zLEDe",
+      "slug": "sophisticated-backpacks-create-integration",
+      "versionId": "PWwbiDmx",
+      "versionNumber": "1.21.1-0.2.3.194",
+      "filename": "sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/s85zLEDe/versions/PWwbiDmx/sophisticatedbackpackscreateintegration-1.21.1-0.2.3.194.jar",
+      "sha1": "911bc3a5c440dc6894920ebd5a848ae8a5c47ec3",
+      "sha512": "b28d70f9db4e616accf8818f95ef7521eda0f56abca81141ea507b0a0fea7a4460a01df6e9e86aa9020369066e55157359e36ec3e65d0ffabf782a5f22f22c44",
+      "fileSize": 94059
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}
