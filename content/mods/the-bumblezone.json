@@ -1,0 +1,23 @@
+{
+  "name": "The Bumblezone - NeoForge/Forge",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "38tpSycf",
+      "slug": "the-bumblezone",
+      "versionId": "LwGXnQCW",
+      "versionNumber": "7.17.3+1.21.1-neoforge",
+      "filename": "the_bumblezone-7.17.3+1.21.1-neoforge.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/38tpSycf/versions/LwGXnQCW/the_bumblezone-7.17.3%2B1.21.1-neoforge.jar",
+      "sha1": "7d79d1c61a1c90ee622773bfe4b2311c29519783",
+      "sha512": "005b0a477e46ae6dde0e8a707949b6a6012ee2415c323871f7c547753331891e90dde95468cd25de7b40581965d5326c731fe8456d96f87e4ec6e5253144b33f",
+      "fileSize": 83641779
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

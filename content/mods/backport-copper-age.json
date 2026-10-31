@@ -1,0 +1,23 @@
+{
+  "name": "Copper Age Backport",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "a1llHwl4",
+      "slug": "backport-copper-age",
+      "versionId": "ZyjDScTQ",
+      "versionNumber": "1.21.1-0.1.5.1-pre",
+      "filename": "copperagebackport-neoforge-1.21.1-0.1.5.1-pre.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/a1llHwl4/versions/ZyjDScTQ/copperagebackport-neoforge-1.21.1-0.1.5.1-pre.jar",
+      "sha1": "eabd4b4eaefe39913dd5d9ce9a38bab470d9a8b8",
+      "sha512": "cb8df9de84b1ef24101d4f672c01a72c65192d60e76828e3ce1de65b206effbd3b3301b41d87e26082fb2415d6befa8021d72c055e50eba6a5a8705108e15b92",
+      "fileSize": 2543829
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

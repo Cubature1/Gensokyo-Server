@@ -1,0 +1,23 @@
+{
+  "name": "Reliable Name Tags",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "xvUE2Syx",
+      "slug": "reliable-name-tags",
+      "versionId": "Xwnew5yY",
+      "versionNumber": "2.1.0+1.21.1-neoforge",
+      "filename": "reliablenametags-2.1.0+1.21.1-neoforge.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/xvUE2Syx/versions/Xwnew5yY/reliablenametags-2.1.0%2B1.21.1-neoforge.jar",
+      "sha1": "f66554f61b404d17c62a801aeedacaad66f461ae",
+      "sha512": "9d3b2ff561be08eee4ce6487ec4fff581b2c0ae055f2f4d9847ad9a2e219f06849f6d537dc8677bc812a8d9d3c389d5ab09d1a28a5846818b6acb183254b78af",
+      "fileSize": 326602
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}
