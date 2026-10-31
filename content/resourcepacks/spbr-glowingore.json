@@ -1,0 +1,23 @@
+{
+  "name": "SPBR-GlowingOre",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "7rohkYfM",
+      "slug": "spbr-glowingore",
+      "versionId": "xDXvA1Hv",
+      "versionNumber": "3",
+      "filename": "SPBR-GlowingOre.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/7rohkYfM/versions/xDXvA1Hv/SPBR-GlowingOre.zip",
+      "sha1": "e2df9571b4cad33f19ee9a9186c29023b638ef49",
+      "sha512": "a5d1814f5061ac9c6546503eff332c11c569c560271de98c48ddaf8141403cf0a77ace60d4d0ff9842c739d8846ed32717b367707e44499ca18bd76e5138ec62",
+      "fileSize": 313646
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

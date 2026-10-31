@@ -1,0 +1,23 @@
+{
+  "name": "rotrBLOCKS: Emiores Addon",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "bdRRjnCk",
+      "slug": "rotrblocks-emiores",
+      "versionId": "gwfGzxi6",
+      "versionNumber": "V2",
+      "filename": "[Addon] rotrBLOCKS Emiores 26.1-1.13 128x.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/bdRRjnCk/versions/gwfGzxi6/%5BAddon%5D%20rotrBLOCKS%20Emiores%2026.1-1.13%20128x.zip",
+      "sha1": "8de8fc2ca913b3372cba29c8fdfcd7333059f3a8",
+      "sha512": "1d253370290a11bd892c1e1dbb586e6d10443a949aa7ca4b276401b01b16413b3dbed2e0949399574a029ff20b7221a41f85404f8d4d81b091ce759716cf043b",
+      "fileSize": 177032
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

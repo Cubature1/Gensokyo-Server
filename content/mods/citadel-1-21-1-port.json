@@ -1,0 +1,25 @@
+{
+  "name": "Citadel (Unofficial Port)",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "XjY0RcQj",
+      "slug": "citadel-1.21.1-port",
+      "versionId": "mIylVpkN",
+      "versionNumber": "2.7.6",
+      "filename": "citadel-1.21.1-2.7.6.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/XjY0RcQj/versions/mIylVpkN/citadel-1.21.1-2.7.6.jar",
+      "sha1": "e0392370117ec16a721f8d65728944398de77607",
+      "sha512": "81fd425d8910da30d9ce130213e518ed3acf6d6b63c98396668126e17f99f4d8e17348de7f6147ed3639ca59a3d3d79e1f0d78937972732fda04b7ac8a886547",
+      "fileSize": 3028943
+    }
+  },
+  "dependents": [
+    "EmNhnNnt"
+  ],
+  "clientSide": "required",
+  "serverSide": "required"
+}

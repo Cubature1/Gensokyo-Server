@@ -1,0 +1,25 @@
+{
+  "name": "SPBR",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "aNcOVoD7",
+      "slug": "spbr",
+      "versionId": "ktlGbxdb",
+      "versionNumber": "Legacy.261025",
+      "filename": "SPBR_Legacy-261025.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/aNcOVoD7/versions/ktlGbxdb/SPBR_Legacy-261025.zip",
+      "sha1": "488df9b52ed0934f9903e115e1dfb5ced9461b93",
+      "sha512": "9ecf378cfb6d040e58d6e48e10415a3dee34211f0de03698e43143004f9318066f035b6d48eacf0d7ae4e04340002a3f0f6390fbcda34f637703aae883eeef55",
+      "fileSize": 21419391
+    }
+  },
+  "dependents": [
+    "MPpKKeAK"
+  ],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

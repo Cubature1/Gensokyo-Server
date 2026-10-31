@@ -1,0 +1,23 @@
+{
+  "name": "Distant Horizons SeedGen",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "iUGLCJTI",
+      "slug": "distant-horizons-seedgen",
+      "versionId": "2DrfEi0d",
+      "versionNumber": "0.9.1",
+      "filename": "Distant Horizons SeedGen 0.9.1 for 1.21.1 NeoForge.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/iUGLCJTI/versions/2DrfEi0d/Distant%20Horizons%20SeedGen%200.9.1%20for%201.21.1%20NeoForge.jar",
+      "sha1": "d9d65b1fcbaf5e4eaaa8564f87c300829c981795",
+      "sha512": "4b0bbb0426d0d600fcef2deb0580f458bbf16b90440b84b9d28fe377a3107cf22ff9f166eec85b802cb5386d5af39d5b0a12ac6bf7ca04fad427206d1405c61d",
+      "fileSize": 1355029
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "optional"
+}

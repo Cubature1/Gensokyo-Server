@@ -1,0 +1,23 @@
+{
+  "name": "SPBR-Mirror",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "j3ZhjjZk",
+      "slug": "spbr-mirror",
+      "versionId": "XohzMweR",
+      "versionNumber": "2",
+      "filename": "SPBR-Mirror.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/j3ZhjjZk/versions/XohzMweR/SPBR-Mirror.zip",
+      "sha1": "3f48ea1284a6303e8dd432d292287c0eeb73698a",
+      "sha512": "e7d45a8cf2181e8e2f9a00ca8e5d71f68c63e0c65de09c4aa499708d733ca051e4aeb8dc8098001dc7c715771cba1648b2e8b822b7d6f9e6c2c587b2edcb9d69",
+      "fileSize": 278560
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

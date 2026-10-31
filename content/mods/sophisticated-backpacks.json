@@ -1,0 +1,23 @@
+{
+  "name": "Sophisticated Backpacks",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "TyCTlI4b",
+      "slug": "sophisticated-backpacks",
+      "versionId": "7V3OGECb",
+      "versionNumber": "1.21.1-3.26.17.2232",
+      "filename": "sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/TyCTlI4b/versions/7V3OGECb/sophisticatedbackpacks-1.21.1-3.26.17.2232.jar",
+      "sha1": "8e7edebc4182974d4371499953a6f41f6b45a7b1",
+      "sha512": "f01ef419bfdd6744acb4a7536751535bd0aa6ea4b2807468cad1c63e59878c8875324375247c84c3baae21f34d7599860a1db05238a89ad20aa6d6c5a7cb528a",
+      "fileSize": 1256228
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

@@ -1,0 +1,3366 @@
+{
+  "ENABLE": true,
+  "lightRangeBlocks": 15,
+  "SMOOTH_LIGHTING": true,
+  "GPU_PIPELINE": true,
+  "VOXY_LIGHT": true,
+  "DH_LIGHT": true,
+  "GPU_LIGHT_SECTIONS": 768,
+  "PROPAGATION_MODE": "colorlight:smooth",
+  "DYNAMIC_PROPAGATION": "colorlight:smooth",
+  "TINT_GAMMA": 0.55,
+  "BRIGHTNESS_WEIGHT": 100,
+  "LOCAL_WEIGHT": 100,
+  "REGION_WEIGHT": 0,
+  "ALPHA_WEIGHT": 0,
+  "ANOMALY_WEIGHT": 100,
+  "SATURATION_WEIGHT": 100,
+  "GLOWCOLORSCORE_WEIGHT": 100,
+  "WHITEPENALTY_WEIGHT": 100,
+  "ENTITY_TRACKING_ENABLED": true,
+  "ENTITY_CHECK_FOLLOW_RENDER_DISTANCE": true,
+  "ENTITY_CHECK_RADIUS_CHUNKS": 12,
+  "userOverrides": [],
+  "blocks": [
+    {
+      "block": "minecraft:lava",
+      "r": 250,
+      "g": 235,
+      "b": 114,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:brown_mushroom",
+      "r": 204,
+      "g": 153,
+      "b": 120,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:torch",
+      "r": 255,
+      "g": 216,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:wall_torch",
+      "r": 255,
+      "g": 216,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:fire",
+      "r": 242,
+      "g": 214,
+      "b": 106,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:soul_fire",
+      "r": 67,
+      "g": 238,
+      "b": 244,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:furnace",
+      "r": 255,
+      "g": 216,
+      "b": 0,
+      "light": 13,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:redstone_ore",
+      "r": 255,
+      "g": 0,
+      "b": 0,
+      "light": 9,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:deepslate_redstone_ore",
+      "r": 255,
+      "g": 0,
+      "b": 0,
+      "light": 9,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:redstone_torch",
+      "r": 255,
+      "g": 215,
+      "b": 215,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:redstone_wall_torch",
+      "r": 255,
+      "g": 215,
+      "b": 215,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:soul_torch",
+      "r": 50,
+      "g": 232,
+      "b": 238,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:soul_wall_torch",
+      "r": 50,
+      "g": 232,
+      "b": 238,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:glowstone",
+      "r": 251,
+      "g": 218,
+      "b": 116,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:nether_portal",
+      "r": 170,
+      "g": 85,
+      "b": 231,
+      "light": 11,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:jack_o_lantern",
+      "r": 255,
+      "g": 225,
+      "b": 86,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:glow_lichen",
+      "r": 174,
+      "g": 175,
+      "b": 140,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:enchanting_table",
+      "r": 162,
+      "g": 246,
+      "b": 231,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:brewing_stand",
+      "r": 217,
+      "g": 204,
+      "b": 63,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:lava_cauldron",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:end_portal",
+      "r": 59,
+      "g": 39,
+      "b": 84,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:end_portal_frame",
+      "r": 246,
+      "g": 250,
+      "b": 189,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:dragon_egg",
+      "r": 127,
+      "g": 0,
+      "b": 145,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:redstone_lamp",
+      "r": 246,
+      "g": 218,
+      "b": 180,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:ender_chest",
+      "r": 59,
+      "g": 39,
+      "b": 84,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:beacon",
+      "r": 196,
+      "g": 255,
+      "b": 254,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:light",
+      "r": 248,
+      "g": 201,
+      "b": 83,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:sea_lantern",
+      "r": 204,
+      "g": 225,
+      "b": 221,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:end_rod",
+      "r": 255,
+      "g": 242,
+      "b": 213,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:end_gateway",
+      "r": 59,
+      "g": 39,
+      "b": 84,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:magma_block",
+      "r": 244,
+      "g": 133,
+      "b": 34,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:sea_pickle",
+      "r": 216,
+      "g": 255,
+      "b": 214,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:conduit",
+      "r": 196,
+      "g": 189,
+      "b": 181,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:smoker",
+      "r": 255,
+      "g": 216,
+      "b": 0,
+      "light": 13,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:blast_furnace",
+      "r": 237,
+      "g": 135,
+      "b": 10,
+      "light": 13,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:lantern",
+      "r": 253,
+      "g": 253,
+      "b": 139,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:soul_lantern",
+      "r": 122,
+      "g": 245,
+      "b": 248,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:campfire",
+      "r": 239,
+      "g": 205,
+      "b": 86,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:soul_campfire",
+      "r": 124,
+      "g": 242,
+      "b": 245,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:shroomlight",
+      "r": 253,
+      "g": 244,
+      "b": 180,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:crying_obsidian",
+      "r": 131,
+      "g": 8,
+      "b": 228,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:respawn_anchor",
+      "r": 251,
+      "g": 218,
+      "b": 116,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:candle",
+      "r": 254,
+      "g": 240,
+      "b": 179,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:white_candle",
+      "r": 251,
+      "g": 242,
+      "b": 194,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:orange_candle",
+      "r": 255,
+      "g": 237,
+      "b": 88,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:magenta_candle",
+      "r": 255,
+      "g": 168,
+      "b": 200,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:light_blue_candle",
+      "r": 196,
+      "g": 254,
+      "b": 234,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:yellow_candle",
+      "r": 254,
+      "g": 255,
+      "b": 131,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:lime_candle",
+      "r": 211,
+      "g": 225,
+      "b": 65,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:pink_candle",
+      "r": 255,
+      "g": 237,
+      "b": 200,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:gray_candle",
+      "r": 242,
+      "g": 208,
+      "b": 154,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:light_gray_candle",
+      "r": 255,
+      "g": 243,
+      "b": 179,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:cyan_candle",
+      "r": 141,
+      "g": 232,
+      "b": 185,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:purple_candle",
+      "r": 216,
+      "g": 48,
+      "b": 133,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:blue_candle",
+      "r": 97,
+      "g": 124,
+      "b": 249,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:brown_candle",
+      "r": 255,
+      "g": 194,
+      "b": 104,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:green_candle",
+      "r": 216,
+      "g": 181,
+      "b": 30,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:red_candle",
+      "r": 255,
+      "g": 161,
+      "b": 96,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:black_candle",
+      "r": 228,
+      "g": 110,
+      "b": 46,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:white_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:orange_candle_cake",
+      "r": 255,
+      "g": 237,
+      "b": 88,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:magenta_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:light_blue_candle_cake",
+      "r": 196,
+      "g": 254,
+      "b": 234,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:yellow_candle_cake",
+      "r": 254,
+      "g": 255,
+      "b": 131,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:lime_candle_cake",
+      "r": 211,
+      "g": 225,
+      "b": 65,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:pink_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:gray_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:light_gray_candle_cake",
+      "r": 255,
+      "g": 243,
+      "b": 179,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:cyan_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:purple_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:blue_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:brown_candle_cake",
+      "r": 255,
+      "g": 194,
+      "b": 104,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:green_candle_cake",
+      "r": 216,
+      "g": 181,
+      "b": 30,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:red_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:black_candle_cake",
+      "r": 253,
+      "g": 244,
+      "b": 216,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:amethyst_cluster",
+      "r": 255,
+      "g": 253,
+      "b": 213,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:large_amethyst_bud",
+      "r": 255,
+      "g": 253,
+      "b": 213,
+      "light": 4,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:medium_amethyst_bud",
+      "r": 254,
+      "g": 203,
+      "b": 230,
+      "light": 2,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:small_amethyst_bud",
+      "r": 179,
+      "g": 142,
+      "b": 243,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:sculk_sensor",
+      "r": 41,
+      "g": 223,
+      "b": 235,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:calibrated_sculk_sensor",
+      "r": 41,
+      "g": 223,
+      "b": 235,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:sculk_catalyst",
+      "r": 22,
+      "g": 222,
+      "b": 236,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:copper_bulb",
+      "r": 255,
+      "g": 247,
+      "b": 210,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:exposed_copper_bulb",
+      "r": 255,
+      "g": 225,
+      "b": 169,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:weathered_copper_bulb",
+      "r": 245,
+      "g": 208,
+      "b": 122,
+      "light": 8,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:oxidized_copper_bulb",
+      "r": 230,
+      "g": 180,
+      "b": 80,
+      "light": 4,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_copper_bulb",
+      "r": 255,
+      "g": 247,
+      "b": 210,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_exposed_copper_bulb",
+      "r": 255,
+      "g": 225,
+      "b": 169,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_weathered_copper_bulb",
+      "r": 245,
+      "g": 208,
+      "b": 122,
+      "light": 8,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_oxidized_copper_bulb",
+      "r": 230,
+      "g": 180,
+      "b": 80,
+      "light": 4,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:cave_vines",
+      "r": 247,
+      "g": 226,
+      "b": 107,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:cave_vines_plant",
+      "r": 247,
+      "g": 226,
+      "b": 107,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:ochre_froglight",
+      "r": 247,
+      "g": 223,
+      "b": 146,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:verdant_froglight",
+      "r": 160,
+      "g": 211,
+      "b": 155,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:pearlescent_froglight",
+      "r": 226,
+      "g": 211,
+      "b": 211,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:trial_spawner",
+      "r": 51,
+      "g": 255,
+      "b": 255,
+      "light": 8,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:vault",
+      "r": 51,
+      "g": 255,
+      "b": 255,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "alexsmobs:capsid",
+      "r": 223,
+      "g": 131,
+      "b": 217,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "alexsmobs:rainbow_glass",
+      "r": 240,
+      "g": 255,
+      "b": 133,
+      "light": 11,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "alexsmobs:ender_residue",
+      "r": 234,
+      "g": 99,
+      "b": 255,
+      "light": 3,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "alexsmobs:transmutation_table",
+      "r": 59,
+      "g": 39,
+      "b": 84,
+      "light": 2,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:lumisene",
+      "r": 244,
+      "g": 121,
+      "b": 67,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:safe",
+      "r": 170,
+      "g": 163,
+      "b": 161,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:cage",
+      "r": 166,
+      "g": 122,
+      "b": 78,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:jar",
+      "r": 221,
+      "g": 245,
+      "b": 245,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:sconce",
+      "r": 255,
+      "g": 217,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:sconce_wall",
+      "r": 255,
+      "g": 217,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:sconce_soul",
+      "r": 46,
+      "g": 233,
+      "b": 239,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:sconce_wall_soul",
+      "r": 46,
+      "g": 233,
+      "b": 239,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:sconce_green",
+      "r": 233,
+      "g": 255,
+      "b": 198,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:sconce_wall_green",
+      "r": 233,
+      "g": 255,
+      "b": 198,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:sconce_lever",
+      "r": 255,
+      "g": 217,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder",
+      "r": 254,
+      "g": 240,
+      "b": 179,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_white",
+      "r": 251,
+      "g": 242,
+      "b": 194,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_light_gray",
+      "r": 255,
+      "g": 243,
+      "b": 179,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_gray",
+      "r": 242,
+      "g": 208,
+      "b": 154,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_black",
+      "r": 228,
+      "g": 110,
+      "b": 46,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_brown",
+      "r": 255,
+      "g": 194,
+      "b": 104,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_red",
+      "r": 255,
+      "g": 161,
+      "b": 96,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_orange",
+      "r": 255,
+      "g": 237,
+      "b": 88,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_yellow",
+      "r": 254,
+      "g": 255,
+      "b": 131,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_lime",
+      "r": 211,
+      "g": 225,
+      "b": 65,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_green",
+      "r": 216,
+      "g": 181,
+      "b": 30,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_cyan",
+      "r": 141,
+      "g": 232,
+      "b": 185,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_light_blue",
+      "r": 196,
+      "g": 254,
+      "b": 234,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_blue",
+      "r": 97,
+      "g": 124,
+      "b": 249,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_purple",
+      "r": 216,
+      "g": 48,
+      "b": 133,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_magenta",
+      "r": 255,
+      "g": 168,
+      "b": 200,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:candle_holder_pink",
+      "r": 255,
+      "g": 237,
+      "b": 200,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:goblet",
+      "r": 193,
+      "g": 189,
+      "b": 186,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:hourglass",
+      "r": 246,
+      "g": 197,
+      "b": 38,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:grouper",
+      "r": 255,
+      "g": 0,
+      "b": 3,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:redstone_illuminator",
+      "r": 223,
+      "g": 216,
+      "b": 200,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:clock_block",
+      "r": 249,
+      "g": 189,
+      "b": 35,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:crystal_display",
+      "r": 229,
+      "g": 155,
+      "b": 251,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:faucet",
+      "r": 103,
+      "g": 97,
+      "b": 97,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:netherite_trapdoor",
+      "r": 90,
+      "g": 82,
+      "b": 82,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:block_generator",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:blaze_rod",
+      "r": 240,
+      "g": 217,
+      "b": 42,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:timber_frame",
+      "r": 131,
+      "g": 102,
+      "b": 58,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:timber_brace",
+      "r": 131,
+      "g": 102,
+      "b": 58,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:timber_cross_brace",
+      "r": 131,
+      "g": 102,
+      "b": 58,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:stone_lamp",
+      "r": 255,
+      "g": 241,
+      "b": 178,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:blackstone_lamp",
+      "r": 12,
+      "g": 223,
+      "b": 231,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:deepslate_lamp",
+      "r": 255,
+      "g": 217,
+      "b": 138,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:end_stone_lamp",
+      "r": 255,
+      "g": 0,
+      "b": 216,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:flower_box",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:statue",
+      "r": 127,
+      "g": 127,
+      "b": 127,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "supplementaries:fire_pit",
+      "r": 255,
+      "g": 216,
+      "b": 160,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "farmersdelight:stove",
+      "r": 255,
+      "g": 216,
+      "b": 0,
+      "light": 13,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "farmersdelight:brown_mushroom_colony",
+      "r": 204,
+      "g": 174,
+      "b": 155,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "farmersdelight:gleaming_salad_block",
+      "r": 247,
+      "g": 226,
+      "b": 107,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:copper_torch",
+      "r": 153,
+      "g": 235,
+      "b": 153,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:copper_wall_torch",
+      "r": 153,
+      "g": 235,
+      "b": 153,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:exposed_copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:weathered_copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:oxidized_copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_exposed_copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_weathered_copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "minecraft:waxed_oxidized_copper_lantern",
+      "r": 220,
+      "g": 248,
+      "b": 220,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:honey_crystal",
+      "r": 255,
+      "g": 202,
+      "b": 80,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:sticky_honey_redstone",
+      "r": 241,
+      "g": 213,
+      "b": 53,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:redstone_honey_web",
+      "r": 237,
+      "g": 199,
+      "b": 55,
+      "light": 2,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:glistering_honey_crystal",
+      "r": 238,
+      "g": 179,
+      "b": 82,
+      "light": 11,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_channel_red",
+      "r": 255,
+      "g": 89,
+      "b": 80,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_channel_purple",
+      "r": 152,
+      "g": 104,
+      "b": 206,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_channel_blue",
+      "r": 80,
+      "g": 184,
+      "b": 191,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_channel_green",
+      "r": 88,
+      "g": 218,
+      "b": 84,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_channel_yellow",
+      "r": 255,
+      "g": 240,
+      "b": 110,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_channel_white",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_corner_red",
+      "r": 255,
+      "g": 89,
+      "b": 80,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_corner_purple",
+      "r": 150,
+      "g": 103,
+      "b": 205,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_corner_blue",
+      "r": 80,
+      "g": 184,
+      "b": 191,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_corner_green",
+      "r": 85,
+      "g": 216,
+      "b": 82,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_corner_yellow",
+      "r": 255,
+      "g": 238,
+      "b": 109,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_corner_white",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_node_red",
+      "r": 255,
+      "g": 87,
+      "b": 80,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_node_purple",
+      "r": 150,
+      "g": 103,
+      "b": 205,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_node_blue",
+      "r": 80,
+      "g": 184,
+      "b": 191,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_node_green",
+      "r": 88,
+      "g": 218,
+      "b": 84,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_node_yellow",
+      "r": 255,
+      "g": 238,
+      "b": 109,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:luminescent_wax_node_white",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base",
+      "r": 254,
+      "g": 240,
+      "b": 179,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_wick",
+      "r": 242,
+      "g": 214,
+      "b": 105,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_wick_soul",
+      "r": 125,
+      "g": 242,
+      "b": 245,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_black",
+      "r": 226,
+      "g": 110,
+      "b": 46,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_blue",
+      "r": 97,
+      "g": 124,
+      "b": 249,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_brown",
+      "r": 254,
+      "g": 193,
+      "b": 103,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_cyan",
+      "r": 140,
+      "g": 231,
+      "b": 185,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_gray",
+      "r": 240,
+      "g": 207,
+      "b": 154,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_green",
+      "r": 215,
+      "g": 180,
+      "b": 30,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_light_blue",
+      "r": 194,
+      "g": 253,
+      "b": 234,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_light_gray",
+      "r": 254,
+      "g": 242,
+      "b": 179,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_lime",
+      "r": 211,
+      "g": 225,
+      "b": 65,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_magenta",
+      "r": 254,
+      "g": 167,
+      "b": 200,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_orange",
+      "r": 254,
+      "g": 235,
+      "b": 89,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_pink",
+      "r": 255,
+      "g": 236,
+      "b": 198,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_purple",
+      "r": 216,
+      "g": 48,
+      "b": 133,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_red",
+      "r": 255,
+      "g": 161,
+      "b": 96,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_white",
+      "r": 248,
+      "g": 218,
+      "b": 171,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:super_candle_base_yellow",
+      "r": 255,
+      "g": 218,
+      "b": 57,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_black",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_blue",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_brown",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_cyan",
+      "r": 22,
+      "g": 171,
+      "b": 170,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_gray",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_green",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_light_blue",
+      "r": 49,
+      "g": 174,
+      "b": 222,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_light_gray",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_lime",
+      "r": 139,
+      "g": 206,
+      "b": 41,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_magenta",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_orange",
+      "r": 255,
+      "g": 153,
+      "b": 41,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_pink",
+      "r": 246,
+      "g": 153,
+      "b": 180,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_purple",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_red",
+      "r": 173,
+      "g": 136,
+      "b": 84,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_white",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:string_curtain_yellow",
+      "r": 255,
+      "g": 218,
+      "b": 57,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:potion_candle_base",
+      "r": 245,
+      "g": 224,
+      "b": 199,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:crystalline_flower",
+      "r": 255,
+      "g": 208,
+      "b": 89,
+      "light": 7,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:essence_block_red",
+      "r": 255,
+      "g": 151,
+      "b": 163,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:essence_block_purple",
+      "r": 254,
+      "g": 215,
+      "b": 255,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:essence_block_blue",
+      "r": 125,
+      "g": 241,
+      "b": 255,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:essence_block_green",
+      "r": 210,
+      "g": 255,
+      "b": 150,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:essence_block_yellow",
+      "r": 255,
+      "g": 235,
+      "b": 42,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:essence_block_white",
+      "r": 194,
+      "g": 180,
+      "b": 172,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "the_bumblezone:infinity_barrier",
+      "r": 215,
+      "g": 215,
+      "b": 215,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:liquid_cauldron",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:hanging_flower_pot",
+      "r": 137,
+      "g": 76,
+      "b": 59,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:carpet_stairs",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:carpet_slab",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:skull_candle",
+      "r": 121,
+      "g": 97,
+      "b": 82,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:skull_candle_wall",
+      "r": 121,
+      "g": 97,
+      "b": 82,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:skull_candle_soul",
+      "r": 121,
+      "g": 97,
+      "b": 82,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:skull_candle_soul_wall",
+      "r": 121,
+      "g": 97,
+      "b": 82,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "travelersbackpack:gold",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "travelersbackpack:end",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 1,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "travelersbackpack:nether",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 11,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "farm_and_charm:stove",
+      "r": 242,
+      "g": 214,
+      "b": 106,
+      "light": 13,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:chocolate_gateau",
+      "r": 240,
+      "g": 151,
+      "b": 143,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:chocolate_tart",
+      "r": 244,
+      "g": 238,
+      "b": 217,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:strawberry_cake",
+      "r": 235,
+      "g": 225,
+      "b": 123,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:sweetberry_cake",
+      "r": 143,
+      "g": 187,
+      "b": 85,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:chocolate_cake",
+      "r": 244,
+      "g": 238,
+      "b": 217,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:bundt_cake",
+      "r": 235,
+      "g": 224,
+      "b": 123,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:linzer_tart",
+      "r": 239,
+      "g": 207,
+      "b": 148,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:apple_pie",
+      "r": 240,
+      "g": 234,
+      "b": 111,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:glowberry_tart",
+      "r": 240,
+      "g": 239,
+      "b": 160,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bakery:pudding",
+      "r": 255,
+      "g": 249,
+      "b": 228,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "brewery:brew_oven",
+      "r": 250,
+      "g": 255,
+      "b": 70,
+      "light": 13,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:borealis_ice",
+      "r": 207,
+      "g": 207,
+      "b": 207,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:packed_borealis_ice",
+      "r": 207,
+      "g": 207,
+      "b": 207,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:cyan_pitcher_plant",
+      "r": 232,
+      "g": 255,
+      "b": 214,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:magenta_pitcher_plant",
+      "r": 255,
+      "g": 223,
+      "b": 214,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:fairy_slipper",
+      "r": 255,
+      "g": 236,
+      "b": 79,
+      "light": 8,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:fluorescent_cattail",
+      "r": 255,
+      "g": 231,
+      "b": 0,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:blue_glowcane",
+      "r": 182,
+      "g": 255,
+      "b": 250,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:green_glowcane",
+      "r": 155,
+      "g": 236,
+      "b": 0,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:red_glowcane",
+      "r": 255,
+      "g": 32,
+      "b": 78,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:yellow_glowcane",
+      "r": 255,
+      "g": 231,
+      "b": 0,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:blue_glow_bottle",
+      "r": 182,
+      "g": 255,
+      "b": 250,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:green_glow_bottle",
+      "r": 149,
+      "g": 244,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:red_glow_bottle",
+      "r": 212,
+      "g": 229,
+      "b": 247,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:yellow_glow_bottle",
+      "r": 255,
+      "g": 237,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:witch_hazel_blossom",
+      "r": 255,
+      "g": 212,
+      "b": 127,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:soul_fruit",
+      "r": 194,
+      "g": 172,
+      "b": 216,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:pale_jack_o_lantern",
+      "r": 227,
+      "g": 170,
+      "b": 0,
+      "light": 14,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:pumpkin_burrow",
+      "r": 255,
+      "g": 225,
+      "b": 86,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:blue_enchanted_leaves",
+      "r": 188,
+      "g": 207,
+      "b": 245,
+      "light": 8,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:green_enchanted_leaves",
+      "r": 181,
+      "g": 238,
+      "b": 238,
+      "light": 8,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:blooming_witch_hazel_leaves",
+      "r": 252,
+      "g": 235,
+      "b": 94,
+      "light": 8,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "biomeswevegone:flowering_spirit_leaves",
+      "r": 194,
+      "g": 172,
+      "b": 216,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:blaze_burner",
+      "r": 120,
+      "g": 125,
+      "b": 124,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:lit_blaze_burner",
+      "r": 239,
+      "g": 205,
+      "b": 86,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:elevator_contact",
+      "r": 255,
+      "g": 235,
+      "b": 209,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:refined_radiance_casing",
+      "r": 210,
+      "g": 215,
+      "b": 201,
+      "light": 12,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:white_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:magenta_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:light_blue_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:yellow_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:lime_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:pink_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:gray_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:light_gray_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:cyan_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:purple_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:blue_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:brown_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:green_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:red_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:black_nixie_tube",
+      "r": 255,
+      "g": 219,
+      "b": 208,
+      "light": 5,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:rose_quartz_lamp",
+      "r": 255,
+      "g": 235,
+      "b": 209,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "create:experience_block",
+      "r": 182,
+      "g": 229,
+      "b": 95,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bits_n_bobs:lightbulb",
+      "r": 255,
+      "g": 255,
+      "b": 212,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bits_n_bobs:headlamp",
+      "r": 255,
+      "g": 155,
+      "b": 125,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "bits_n_bobs:brass_lamp",
+      "r": 255,
+      "g": 235,
+      "b": 140,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "lootr:trophy",
+      "r": 0,
+      "g": 204,
+      "b": 204,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:biomeswevegone/wall_blue_glow_bottle",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_exposed_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:biomeswevegone/wall_green_glow_bottle",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_oxidized_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:biomeswevegone/wall_red_glow_bottle",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_soul_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_waxed_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_waxed_exposed_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_waxed_oxidized_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_waxed_weathered_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:wall_weathered_copper_lantern",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "amendments:biomeswevegone/wall_yellow_glow_bottle",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "immersive_portals:nether_portal_block",
+      "r": 227,
+      "g": 0,
+      "b": 0,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:white_portable_engine",
+      "r": 202,
+      "g": 202,
+      "b": 199,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:orange_portable_engine",
+      "r": 205,
+      "g": 133,
+      "b": 59,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:magenta_portable_engine",
+      "r": 217,
+      "g": 113,
+      "b": 187,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:light_blue_portable_engine",
+      "r": 93,
+      "g": 187,
+      "b": 199,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:yellow_portable_engine",
+      "r": 231,
+      "g": 196,
+      "b": 80,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:lime_portable_engine",
+      "r": 109,
+      "g": 178,
+      "b": 67,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:pink_portable_engine",
+      "r": 245,
+      "g": 183,
+      "b": 194,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:gray_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:light_gray_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:cyan_portable_engine",
+      "r": 47,
+      "g": 166,
+      "b": 166,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:purple_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:blue_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:brown_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:green_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:red_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "simulated:black_portable_engine",
+      "r": 197,
+      "g": 197,
+      "b": 197,
+      "light": 6,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "aeronautics:adjustable_burner",
+      "r": 180,
+      "g": 193,
+      "b": 184,
+      "light": 15,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "aeronautics:levitite",
+      "r": 236,
+      "g": 250,
+      "b": 215,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    },
+    {
+      "block": "aeronautics:pearlescent_levitite",
+      "r": 234,
+      "g": 203,
+      "b": 195,
+      "light": 10,
+      "enable": true,
+      "edit": false,
+      "propagation": ""
+    }
+  ]
+}

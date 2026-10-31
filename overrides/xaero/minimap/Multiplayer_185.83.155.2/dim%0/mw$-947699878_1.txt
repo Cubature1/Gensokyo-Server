@@ -1,0 +1,8 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:Road Sign:R:-556:67:5:20:false:0:gui.xaero_default:true:15:0:false
+waypoint:Hi:H:-325:63:-199:3:false:0:gui.xaero_default:false:0:0:false
+waypoint:CaveBaseThing?:C:-317:55:-209:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:Spawn:S:-354:69:-213:4:false:0:gui.xaero_default:false:0:0:false
+waypoint:Spawn-Ish:S:-105:65:5:4:false:0:gui.xaero_default:false:0:0:false

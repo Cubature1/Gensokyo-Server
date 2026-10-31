@@ -1,0 +1,23 @@
+{
+  "name": "rotrBLOCKS: CTM Addon",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "lzz2xAgC",
+      "slug": "rotrblocks-ctm",
+      "versionId": "cntODSQP",
+      "versionNumber": "V2",
+      "filename": "[Addon] rotrBLOCKS CTM 26.1-1.13 128x.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/lzz2xAgC/versions/cntODSQP/%5BAddon%5D%20rotrBLOCKS%20CTM%2026.1-1.13%20128x.zip",
+      "sha1": "cc572b2fba54ad7fa2e4c2f0aca572204d32ffb2",
+      "sha512": "86d13f7c4b31c57b21e538c9411bf5d712836723490488253c3d7ff62e0c100f9552f55919895d35a0ce0fb8be872c9ce6768fc369416e46c887efad222f45fd",
+      "fileSize": 2743271
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

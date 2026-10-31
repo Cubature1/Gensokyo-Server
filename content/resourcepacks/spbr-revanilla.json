@@ -1,0 +1,23 @@
+{
+  "name": "SPBR - Revanilla",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "MPpKKeAK",
+      "slug": "spbr-revanilla",
+      "versionId": "CGgUAYda",
+      "versionNumber": "1.4.0",
+      "filename": "SPBR - Revanilla 1.4.0.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/MPpKKeAK/versions/CGgUAYda/SPBR%20-%20Revanilla%201.4.0.zip",
+      "sha1": "d30093a83530dfdca1b16e6463d1055343367c3d",
+      "sha512": "06102cf4c588538185da93b743804e33f6790bad53cec1a245afd1506df2f41edce51b7f358880c932ebc9be1dcc56c3d2a308c232d8d9f13e080ffb5d6c185a",
+      "fileSize": 128305725
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ColorLight",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "DbLWxVRd",
+      "slug": "colorlight",
+      "versionId": "9a4YB2cP",
+      "versionNumber": "ColorLight-1.21.1-0.2.5",
+      "filename": "colorlight-1.21.1-0.2.5.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/DbLWxVRd/versions/9a4YB2cP/colorlight-1.21.1-0.2.5.jar",
+      "sha1": "0e69103769bf7ee8923e064e2452870febb91c3f",
+      "sha512": "67e4f79a36cde1f168f2a5d56432ecd4e7989f5fd3a12d36e7a309d17e016fa262b26abf7bc7183a5f6f4bc7ada527559a1af90fa550a87d8020bdd903a20670",
+      "fileSize": 346081
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

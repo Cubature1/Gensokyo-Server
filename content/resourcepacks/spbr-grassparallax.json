@@ -1,0 +1,23 @@
+{
+  "name": "SPBR-GrassParallax",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "ATVDZ3BS",
+      "slug": "spbr-grassparallax",
+      "versionId": "sEGhlkfy",
+      "versionNumber": "2",
+      "filename": "SPBR-GrassParallax.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/ATVDZ3BS/versions/sEGhlkfy/SPBR-GrassParallax.zip",
+      "sha1": "e70101e81758a0dbc359b624c8b1e23bd50b1f90",
+      "sha512": "2af39c920741b3065d5bde5b9c955f6a9c875592e43a5b15983fe8870060a5e8381cef866201056f58d3699ddeb06c26d3cf1ac5ab6d36e7720e9cddec560ddb",
+      "fileSize": 695039
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

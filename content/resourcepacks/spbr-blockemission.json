@@ -1,0 +1,23 @@
+{
+  "name": "SPBR-BlockEmission",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "Oe8Ex9yV",
+      "slug": "spbr-blockemission",
+      "versionId": "Xe04Dgyv",
+      "versionNumber": "2",
+      "filename": "SPBR-BlockEmission.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/Oe8Ex9yV/versions/Xe04Dgyv/SPBR-BlockEmission.zip",
+      "sha1": "dcf2dd02aca88914482721a008ecf9ee6352fbe3",
+      "sha512": "852f36ca6c2c3b70c068b11a5ff3d549d0d1b12d5f3f452382bc085b49945d575bd27118e82636b69d49a9b6270b31a4defcf3a1f1ad31595cc9cd03e37c0216",
+      "fileSize": 210234
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

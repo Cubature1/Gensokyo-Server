@@ -1,0 +1,23 @@
+{
+  "name": "KryptonFoxified",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "rmFH8I1v",
+      "slug": "krypton-foxified",
+      "versionId": "TFGMCLED",
+      "versionNumber": "0.1.0+mc1.21",
+      "filename": "KryptonFoxified-0.1.0+mc1.21.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/rmFH8I1v/versions/TFGMCLED/KryptonFoxified-0.1.0%2Bmc1.21.jar",
+      "sha1": "b6912442dfb47b2cbcadb4085608636fced68af9",
+      "sha512": "57f5252cdb730521fe2b28241b6250c73df3d8954af904661a35ca5ce6915425216e5db46519d0d2db6cd13c4a07bcf47c123b0746647e5173fdd322d681d5ab",
+      "fileSize": 189002
+    }
+  },
+  "dependents": [],
+  "clientSide": "optional",
+  "serverSide": "optional"
+}

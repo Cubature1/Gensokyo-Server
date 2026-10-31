@@ -1,0 +1,23 @@
+{
+  "name": "Immersive Blood Splatters",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "M93DtNU5",
+      "slug": "splattermod",
+      "versionId": "680lJRjn",
+      "versionNumber": "1.21.1-0.3.0",
+      "filename": "splatter-1.21.1-0.3.0-neoforge.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/M93DtNU5/versions/680lJRjn/splatter-1.21.1-0.3.0-neoforge.jar",
+      "sha1": "009950614e8d8c9b44adbf9fdffddd5a13962048",
+      "sha512": "ae0722a2b1d4c6e5e769a065748c7e759450782aecb6165e34536d861e2acf3dbdf27cc04c101083c44dde321463f0478fa61f0f8fbbb32be67103564b7856cf",
+      "fileSize": 462730
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}

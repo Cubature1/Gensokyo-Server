@@ -1,0 +1,23 @@
+{
+  "name": "Alex's Mobs (Unofficial Port)",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "EmNhnNnt",
+      "slug": "alexs-mobs-1.21.1",
+      "versionId": "KSgki4uc",
+      "versionNumber": "1.22.17",
+      "filename": "alexsmobs-1.22.17.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/EmNhnNnt/versions/KSgki4uc/alexsmobs-1.22.17.jar",
+      "sha1": "5070e8070f60650d773bfd9f1d031496f8f50259",
+      "sha512": "9f57f20693bb187c54f6d68dc34592b87d0e55a5a4628ad097b0aa39afe165f4a834b83b6590d803e64bac0b1230a8f46369bfe45851a3cc964cf3d88f235277",
+      "fileSize": 26620546
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

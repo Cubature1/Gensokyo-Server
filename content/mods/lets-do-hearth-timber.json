@@ -1,0 +1,23 @@
+{
+  "name": "[Let's Do] Hearth & Timber",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "paO4gjmE",
+      "slug": "lets-do-hearth-timber",
+      "versionId": "g9yHj7BB",
+      "versionNumber": "1.0.5",
+      "filename": "letsdo-hearth_and_timber-neoforge-1.0.5.jar",
+      "downloadUrl": "https://cdn.modrinth.com/data/paO4gjmE/versions/g9yHj7BB/letsdo-hearth_and_timber-neoforge-1.0.5.jar",
+      "sha1": "ac405ebc423dddbe1dbcc26065265475241ef997",
+      "sha512": "db56ccfbeee47019ee769f4973d18cee1f6ed866cc5d91222c16b20465981834091b160e29b8397bc4ee6ca8f6846106495236584aa651f7fac0aeb5f566b4b1",
+      "fileSize": 2380063
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "required"
+}

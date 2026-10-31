@@ -1,0 +1,23 @@
+{
+  "name": "SPBR-Farmer's Delight",
+  "side": "auto",
+  "explicit": true,
+  "disabled": false,
+  "preferred": "modrinth",
+  "sources": {
+    "modrinth": {
+      "id": "kdAPiuKp",
+      "slug": "spbr-farmersdelight",
+      "versionId": "5WZ5Um1Z",
+      "versionNumber": "1.2",
+      "filename": "SPBR-Farmer's Delight_1.2.zip",
+      "downloadUrl": "https://cdn.modrinth.com/data/kdAPiuKp/versions/5WZ5Um1Z/SPBR-Farmer%27s%20Delight_1.2.zip",
+      "sha1": "4d7660bb4b7cd658fec730e4a2f2010d565d7e3a",
+      "sha512": "718300904763be8004051d41ea69b57761978a992cd2dec5149777b1347b4b4f2cf39d199f3260d265aa5ac2b97af2e99b58c23f7f6926dbca472070fbbc68b9",
+      "fileSize": 807426
+    }
+  },
+  "dependents": [],
+  "clientSide": "required",
+  "serverSide": "unsupported"
+}
