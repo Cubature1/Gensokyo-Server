@@ -1,0 +1,2 @@
+# Gensokyo-Server
+Minecraft server
